@@ -14,4 +14,3 @@ jobs:
     - uses: ./
     - name: Check sort with disorder
       run: sort -c test/test.txt || true
-
